@@ -1,2 +1,0 @@
-arquivo .txt de teste
-segundo parágrafo de teste
