@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +7,35 @@
     <title>imagem</title>
 </head>
 <style>
+    #fonte{
+        color: white;
+    }
+    #fundo{
+        background-color: rgb(40, 141, 209);
+    }
     #titulo{
-        background-color: aquamarine;
+        background-color: rgb(255, 123, 0);
     }
     #titulo2{
-        background-color: aquamarine;
+        background-color: rgb(255, 123, 0);
     }
 </style>
-<body>
+<body id="fundo">
     <font face="arial"><h1 id="titulo">Tag de imagem</h1></font>
     <hr>
-    <p>A tag para inserir imagem em um site HTML é "img"
+    <p id="fonte">A tag para inserir imagem em um site HTML é "img"
         e ela funciona junto com o atributo "src"(source).
         O "alt" não é obrigatório, mas, o "alt" é bom pra indicar o que tem na imagem,
         caso a imagem não abra
     </p>
-    <h2 id="titulo2">inserindo uma imagem local</h2>
+    <font face="arial"><h2 id="titulo2">inserindo uma imagem local</h2></font>
     <img src="../imagens/bing chilling.jpg" alt="John Cena">
-    usaremos essa imagem de exemplo
     <hr>
-    <p>Para que essa imagem seja adicionada,
-       o código para a imagem será o seguinte: 
-       <strong>"img src="http://localhost/DEW2023/imagens/bing%20chilling.jpg" alt="John Cena""</strong> 
-    </p>
+    <font face="arial"><h2 id="titulo2">Imagem Com Link (Voltar ao Menu):</h2></font>
+    <a href="../index.html"><img src="../imagens/Emoji-Seta-PNG.png" alt="" width="130"></a>
+    voltar ao menu inicial
     <ul>
-        <li><a href="../index.html">Voltar para o Menu</a></li>
-        <li><a href="../pagina-teste/coisas.html">Sumário</a></li>
+        <li><font face="arial"><a href="../sumario/coisas.html"><strong>Sumário</strong></a></font></li>
     </ul>
         
 </body>
