@@ -1,2 +1,22 @@
-<html>: base da página
-<p>
+<html></html>: base da página
+<head></head>: informações sobre o documento html
+<title></title>: título da página
+<style></style>: estilo do site html (CSS)
+<body></body>: corpo do html
+
+---------------------------------------------SOBRE O HTML--------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------DESENVOLVIMENTO-------------------------------------------------------------------------------------------------------------------------------
+<h1>/<h2>/<h3>/<h4>/<h5>/<h6>: títulos de tamanhos diferentes
+<font></font>: tag de fonte
+<p></p>: parágrafo
+<strong></strong>: Dar ênfase em negrito
+<em></em>: dar ênfase em itálico
+
+-------------------------------------------TABELAS EM HTML--------------------------------------------------------------------------------------------------------------------------------
+<table></table>: tag base de uma tabela
+<caption></caption>: tag de título de uma tabela
+<tr></tr>: tag de linha de uma tabela
+    (tr*2>td*3): três colunas para cada linha
+<td>></td>: tag de colunas
+
+
