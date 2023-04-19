@@ -2,12 +2,12 @@ Passo a Passo: GitHub
      1- Entrar no GitHub com email e senha
      2- Entrar no VSCode
      3- Fechar pasta(se estiver aberta) -File-->Close Folder
-     4- Ir no botão "Source Control"
-     5- Clicar no botão "Clone Repository"
-     6- Copiar URL do repositório criado no GitHub, colar no VSCode e teclar Enter
-     7- Clonar o diretório em C:/xampp/htdocs e clicar em "Open"
+     4- Ir no botao "Source Control"
+     5- Clicar no botao "Clone Repository"
+     6- Copiar URL do repositorio criado no GitHub, colar no VSCode e teclar Enter
+     7- Clonar o diretorio em C:/xampp/htdocs e clicar em "Open"
      8- Tela azul se confia em "Author" e clicar em sim
-     ----------------------------------Fim Da Clonagem Do Repositório Do GitHub-----------------------------------------
+     ----------------------------------Fim Da Clonagem Do Repositorio Do GitHub-----------------------------------------
     
      --------------------------------------------Configurar Terminal----------------------------------------------------
      1- Ir em "Terminal"--->"New Terminal"
@@ -16,13 +16,13 @@ Passo a Passo: GitHub
            (git config --global user.name "nome-usuario-gitub)
      3- Fechar Terminal
     
-    -----------------------------------------Enviando Mudanças Para o GitHub--------------------------------------------
-     1- Salvar as Mudanças "Ctrl+S"
+    -----------------------------------------Enviando Mudancas Para o GitHub--------------------------------------------
+     1- Salvar as Mudancas "Ctrl+S"
      2- Ir no "Source Control"
-     3- Em changes clicar em + (NÃO TECLAR)
+     3- Em changes clicar em + (NAO TECLAR)
      4- Colocar mensagem no commit
-     5- Clicar na setinha do botão commit(Azul)
+     5- Clicar na setinha do botao commit(Azul)
      6- Ir em "Commit And Push"
-     7- Na primeira vez precisa de autorização - na segunda não será mais necessário
-     8- Ver no GitHub se está atualizado
+     7- Na primeira vez precisa de autorizacao - na segunda nao sera mais necessario
+     8- Ver no GitHub se esta atualizado
     ------------------------------------------------------Fim-----------------------------------------------------------    
