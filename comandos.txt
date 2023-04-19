@@ -4,19 +4,33 @@
 <style></style>: estilo do site html (CSS)
 <body></body>: corpo do html
 
+AVISOS:
+-  o navegador tenta achar o primeiro site com o nome "index.html", que é a página principal
+-  o html não funciona sem o "html", "head" e "body"
+
 ---------------------------------------------SOBRE O HTML--------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------DESENVOLVIMENTO-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------DESENVOLVIMENTO-(BODY)---------------------------------------------------------------------------------------------------------------------------
 <h1>/<h2>/<h3>/<h4>/<h5>/<h6>: títulos de tamanhos diferentes
 <font></font>: tag de fonte
 <p></p>: parágrafo
 <strong></strong>: Dar ênfase em negrito
 <em></em>: dar ênfase em itálico
+<img src="" alt="">: tag de imagem (vc pode mudar o tamanho da imagem com as tags: "width" e "height")
+<ol></ol>: lista ordenada
+<ul></ul>: lista não-ordenada
+    <li></li>: cria um item da lista
+<hr>: adiciona uma linha na página
+<br>: quebra de linha
+<a href="pasta/site.html"></a>: tag para a criação de um link
+<b></b>: tag de texto em negrito
+<i></i>: tag de texto em itálico
 
 -------------------------------------------TABELAS EM HTML--------------------------------------------------------------------------------------------------------------------------------
 <table></table>: tag base de uma tabela
-<caption></caption>: tag de título de uma tabela
-<tr></tr>: tag de linha de uma tabela
+    <caption></caption>: tag de título de uma tabela
+    <tr></tr>: tag de linha de uma tabela
     (tr*2>td*3): três colunas para cada linha
-<td>></td>: tag de colunas
+    <td>></td>: tag de coluna dentro de uma tabela
+    <th></th>: tag de cabeçalho de uma tabela
 
 
