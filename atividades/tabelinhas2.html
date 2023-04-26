@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Tabelas 2</title>
+</head>
+<style>
+    #total{
+        background-color: antiquewhite;
+    }
+    #categorias{
+        background-color: darkkhaki;
+    }
+    #background{
+        background-color: aliceblue;
+    }
+    #tabela{
+        background-color: white;
+    }
+    #titulo{
+        background-color: cornsilk;
+    }
+</style>
+<body id="background">
+    <font face="arial"><h1>Tabelas (Atividade 3)</h1></font>
+    <p>2ª página para atividade com tabelas</p>
+    <ul>
+        <li><font face="arial"><strong><a href="../index.html">Voltar ao menu</a></strong></font></li>
+    </ul>    
+    <hr>
+    <font face="verdana"><h1>Primeira Tabela</h1></font>
+    <table id="tabela" border="2">
+        <tr>
+            <strong><th id="titulo" colspan="5">Tabela 1</th></strong>
+        </tr>
+        <tr id="categorias">
+            <th>Áreas</th>
+            <th>UNESP</th>
+            <th>UNICAMP</th>
+            <th>USP</th>
+            <th>TOTAL</th>
+        </tr>
+        <tr>
+            <td>Interdisciplinar</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td id="total"><b>6</b></td>
+        </tr>
+        <tr>
+            <td>Biológicas e da Saúde</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td id="total"><b>6</b></td>
+        </tr>
+        <tr>
+            <td>Exatas e Tecnologias</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td id="total"><b>6</b></td>
+        </tr>
+        <tr>
+            <td>Humanas e Artes</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td id="total"><b>6</b></td>
+        </tr>
+        <tr id="total">
+            <th id="categorias"><b>TOTAL</b></th>
+            <td><b>8</b></td>
+            <td><b>8</b></td>
+            <td><b>8</b></td>
+            <td><b>24</b></td>
+        </tr>
+    </table>
+    <hr>
+    <font face="verdana"><h1>Segunda Tabela</h1></font>
+    <table id="tabela" border="2">  
+    <tr>
+        <strong><th id="titulo" colspan="3">Tabela de Preços e Produtos</th></strong>
+    </tr>
+        <tr id="categorias">
+            <th>Tipo de Despesa</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td rowspan="5"><b>Doméstica</b></td>
+            <td>Compras do mês</td>
+            <td>R$280,00</td>
+        </tr>
+        <tr>
+            <td>Aluguel</td>
+            <td>R$450,00</td>
+        </tr>
+        <tr>
+            <td>Luz</td>
+            <td>R$120,00</td>
+        </tr>
+        <tr>
+            <td>Água</td>
+            <td>R$111,00</td>
+        </tr>
+        <tr>
+            <td>Telefone</td>
+            <td>R$90,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Externa</b></td>
+            <td>Gasolina</td>
+            <td>R$450,00</td>
+        </tr>
+        <tr>
+            <td>Almoço</td>
+            <td>R$200,00</td>
+        </tr>
+        <tr>
+            <th id="categorias" colspan="2"><b>Subtotal</b></th>
+            <td id="total">R$1.701,00</td>
+        </tr>
+    </table>
+    <hr>
+    <font face="verdana"><h1> Terceira Tabela</h1></font>
+    <table id="tabela" border="2">
+        <tr>
+            <th id="titulo" colspan="6">Tabela 3</th>
+        </tr>
+        <tr id="categorias">
+            <th rowspan="3">País</th>
+            <th colspan="2">Saneamento Básico (%)</th>
+            <th colspan="3">Taxa de Mortalidade <br> Infantil (Por Mil)</th>
+        </tr>
+        <tr id="categorias">
+            <th rowspan="2">Esgotamento <br> Sanitário <br> Adequado</th>
+            <th rowspan="2">Abastecimento <br> de <br> Água</th>
+            <th colspan="3">Anos de Permanência <br> das mães na escola</th>
+        </tr>
+        <tr id="categorias">
+            <th>Até 3</th>
+            <th>De 4 <br> à 7</th>
+            <th>8 ou <br> Mais</th>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>33</td>
+            <td>47</td>
+            <td>45,1</td>
+            <td>29,6</td>
+            <td>21,4</td>
+        </tr>
+        <tr>
+            <td>II</td>
+            <td>36</td>
+            <td>65</td>
+            <td>70,3</td>
+            <td>41,2</td>
+            <td>28,0</td>
+        </tr>
+        <tr>
+            <td>III</td>
+            <td>81</td>
+            <td>88</td>
+            <td>34,8</td>
+            <td>27,4</td>
+            <td>17,7</td>
+        </tr>
+        <tr>
+            <td>IV</td>
+            <td>62</td>
+            <td>79</td>
+            <td>33,9</td>
+            <td>22,5</td>
+            <td>16,4</td>
+        </tr>
+        <tr>
+            <td>V</td>
+            <td>40</td>
+            <td>73</td>
+            <td>37,9</td>
+            <td>25,1</td>
+            <td>19,3</td>
+        </tr>
+    </table>
+</body>
+</html>
