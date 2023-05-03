@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagens/imagem.jpg">
+    <title>Formulários</title>
+</head>
+<style>
+    #background{
+        background-color: aliceblue;
+    }
+</style>
+<body id="background">
+    <h1>Página de formulário</h1>
+    <p>página voltada para formulários e outras coisas relacionadas com o mesmo.</p>
+    <hr>
+    <br>
+
+    <form action="" method="">
+        <fieldset>
+        <div>
+            <label for="nome_usuario">Nome:</label>
+            <input type="text" name="nome" id="nome" size="25" maxlength="25" minlength="3" placeholder="Digite Seu Nome">
+        </div>
+        <div>
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" placeholder="Digite a Senha" required>
+        </div>
+        </fieldset>
+        <br>
+        <div>
+            <label for="">Hobbies: </label>
+            <br>
+                <input type="checkbox" name="esportes" id="esporte">
+                <label for="esportes">Esportes</label>
+                <input type="checkbox" name="cinema" id="cinema">
+                <label for="cinema">Cinema</label>
+                <input type="checkbox" name="leitura" id="leitura">
+                <label for="leitura">Leitura</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha o Tipo: </label>
+            <br>
+            <input type="radio" name="tipo" id="adulto" checked>
+            <label for="adulto">Adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescente">Adolescente</label>
+            <input type="radio" name="tipo" id="crianca">
+            <label for="crianca">Criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="arquivo">Escolher arquivo</label>
+            <br>
+            <input type="file" name="arquivo" id="arquivo" accept="image/png, image/jpg, image/gif">
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha uma Opção</label>
+            <br>
+            <select name="" id="">
+                <option value="tsi">TSI</option>
+                <option value="tme">TME</option>
+                <option value="inf">Informática</option>
+                <option value="adm">Administração</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="texto">Área de liberdade</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua Redação do ENEM inteira"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+        </div>
+    </form>
+</body>
+</html>
