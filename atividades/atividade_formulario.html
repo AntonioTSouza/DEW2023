@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagens/imagem.jpg">
     <title>Atividade 4</title>
 </head>
-<body>
+<style>
+    #background{
+        background-color: aliceblue;
+    }
+    #formulario{
+        background-color: antiquewhite;
+    }
+</style>
+<body id="background">
     <h1>Formulários (Atividade 4)</h1>
     <br>
     <ul>
@@ -14,7 +23,8 @@
     </ul>
     <hr>
     <form action="">
-        <fieldset>
+        <font size="2"><font face="verdana">
+        <fieldset id="formulario">
             <legend>Dados Pessoais</legend>
             <div>
                 <label for="">Nome:</label>
@@ -37,13 +47,27 @@
                     <option value="Amazonas">Amazonas</option>
                     <option value="Bahia">Bahia</option>
                     <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
                     <option value="Paraiba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
                     <option value="Pernambuco">Penambuco</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
                     <option value="Sao Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
                 </select>
             </div>
         </fieldset>
-        <fieldset>
+        
+        <fieldset id="formulario">
             <legend>Dados Profissionais</legend>
             <div>
                 <label for="cargo">Natureza do Cargo</label>
@@ -80,6 +104,7 @@
                 <textarea name="curriculo" id="" cols="30" rows="8" placeholder="digite seu resumo"></textarea>
             </div>
         </fieldset>
+        </font>
         <div>
             <button type="submit">Enviar</button>
             <button type="reset">Apagar</button>

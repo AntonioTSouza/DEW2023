@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagens/imagem.jpg">
+    <title>Mapeamento de Imagens</title>
+</head>
+<style>
+    #background{
+        background-color: aliceblue;
+    }
+</style>
+<body id="background">
+    <font face="verdana">
+        <header>
+            <h1>Mapeamento de Imagens</h1>
+        </header>
+    </font>
+    <font face="arial">
+    <main>
+        <section>        
+            <p>Permite mapear uma imagem tornando áreas da imagem clicáveis</p>
+            <li><font face="verdana"><b><a href="../index.html">Menu</a></b></font></li>
+            <hr>
+            <figure>
+                <img src="../imagens/rs.jpg" alt="Logos de redes sociais" usemap="#rs">
+                <figcaption>Passe o mouse sobre os icones da imagem para ir para suas páginas</figcaption>
+            </figure>
+            <map name="rs">
+                <area shape="rect" coords="2,126,164,278" href="https://facebook.com" alt="Facebook" target="alvo" title="Facebook">
+                <area shape="circle" coords="992,197,60" href="https://github.com" alt="Whatsapp" target="alvo" title="Whatsapp">
+                <area shape="rect" coords="185,116,347,276" href="https://youtube.com" alt="Youtube" target="alvo" title="Youtube">
+                <area shape="rect" coords="366,116,526,281" href="https://tiktok.com" alt="TikTok" target="alvo" title="TikTok">
+                <area shape="rect" coords="554,116,700,280" href="https://instagram.com" alt="Instagram" target="alvo" title="Instagram">
+                <area shape="rect" coords="726,116,885,280" href="https://google.com/intl/pr-BR_br/business/" alt="MyBusiness" target="alvo" title="Google MyBusiness">
+            </map>
+        </section>
+    </main>    
+    </font>
+</body>
+</html>
