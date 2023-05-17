@@ -1,4 +1,4 @@
-div{
+div{ /*Este é um arquivo css de estilos (não é um html)*/
     background-color: beige;
     font-family: Cambria, Cochin, georgia, serif;
     font-size: 30px;
@@ -12,10 +12,4 @@ h1, h2{
     font-size: 25px;
 }
 
-
-#background{
-    background-color: aliceblue;
-}
-#tabela{
-    background-color: white;
-}
+div p strong a{color: brown;}
