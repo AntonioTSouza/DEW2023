@@ -1,0 +1,21 @@
+div{
+    background-color: beige;
+    font-family: Cambria, Cochin, georgia, serif;
+    font-size: 30px;
+}
+
+div li{
+    font-family: 'Franklin Gothic Medium', 'Arial Nrrow', sans-serif;
+}
+
+h1, h2{
+    font-size: 25px;
+}
+
+
+#background{
+    background-color: aliceblue;
+}
+#tabela{
+    background-color: white;
+}
