@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+}
+
+/*Para Fazer Tabelas -- Início*/
+#total{
+    background-color: antiquewhite;
+}
+#categorias{
+    background-color: darkkhaki;
+}
+#background{
+    background-color: aliceblue;
+}
+#tabela{
+    background-color: white;
+}
+#titulo{
+    background-color: cornsilk;
+}
+/*Para Fazer Tabelas -- Fim*/
+
+h1{
+    font-family: "Comic Sans MS", sans-serif;
+}
+h2{
+    font-family: "Arial Narrow", sans-serif;
+}
+.atividades{
+    font-family: "Comic Sans MS", Verdana, sans-serif;
+    font-size: small;
+}
+.titulo_principal{
+    font-size: xx-large;
+    text-align: center;
+}
