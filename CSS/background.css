@@ -1,0 +1,23 @@
+h1{
+    margin: 2;
+}
+.cor-fundo{
+    background-color: rgb(105,105,105);
+}
+
+h2{
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.item-1{background-color: rgb(360,0,0);}
+.item-2{background-color: rgb(0,360,0);}
+.item-3{background-color: rgb(0,0,360);}
