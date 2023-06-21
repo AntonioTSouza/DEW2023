@@ -40,7 +40,7 @@ AVISOS:
 .{}: comando para class
 #{}: comando para id
 
-Para esetar configuracao padrao de todos os elementos da pagina, faca
+Para resetar configuracao padrao de todos os elementos da pagina, faca
 {
     *{
         margin: 0;
@@ -48,4 +48,5 @@ Para esetar configuracao padrao de todos os elementos da pagina, faca
         box-sizing: border-box;
     }
 }
+
 
