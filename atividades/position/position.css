@@ -20,7 +20,7 @@ p{
     display: flex;
     text-align: center;
     position: relative;
-    width: 1000px;
+    width: 1000px auto;
 }
 h1{
     text-align: center;
@@ -28,6 +28,6 @@ h1{
 
 img{
     position: absolute;
-    left: 1210px;
-    top: 100px;
+    left: 1210px auto;
+    top: 100px auto;
 }
