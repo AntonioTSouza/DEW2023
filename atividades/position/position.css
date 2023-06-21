@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Comic Sans MS", serif;
+    background-color: aliceblue;
+}
+
+fieldset{
+
+    position: absolute;
+    left: 200px;
+}
+
+p{
+    font-size: small;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 1000px;
+}
+h1{
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    left: 1210px;
+    top: 100px;
+}

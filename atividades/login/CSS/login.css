@@ -1,0 +1,14 @@
+/*mudar cor do fundo*/
+body{
+    background-color: aliceblue;
+}
+
+/*Comandos Que Mudam Somente o Formulário*/
+.formulario{
+    /*Comando para mudar a fonte do html*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*Comando para mudar o tipo do comando (de block para inline)*/
+    display: inline;
+    /*alinhar itens e texto*/
+    text-align: center;
+}
